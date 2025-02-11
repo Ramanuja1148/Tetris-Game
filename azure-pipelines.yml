@@ -16,7 +16,7 @@ variables:
   containerRegistry: 'container1148.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: 'container1148e605-auth'
+  imagePullSecret: 'container1148-auth'
 
   # Agent VM image name
   # vmImageName: 'ubuntu-latest'
